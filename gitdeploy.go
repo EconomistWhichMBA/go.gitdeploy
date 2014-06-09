@@ -171,7 +171,7 @@ func prepareDirectories(releases, repo, branch string) error {
 func checkDir(dir string) error {
   fi, err := os.Stat(dir)
   if err != nil || !fi.IsDir() {
-    err = os.Mkdir(dir, 0700)
+    err = os.Mkdir(dir, 0755)
     if err != nil {
       return errors.New("Failed to create directory: " + dir)
     }
