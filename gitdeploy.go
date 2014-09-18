@@ -8,7 +8,7 @@ import (
   "time"
   "os"
   "os/exec"
-  "github.com/elimisteve/go.github/webhooks"
+  "github.com/EconomistWhichMBA/go.github/webhooks"
 )
 
 var port string     = "7777"
