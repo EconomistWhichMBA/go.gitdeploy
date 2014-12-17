@@ -13,12 +13,12 @@ import (
 
 var port string     = "7777"
 var branch string   = "master"
-var command string  = ""
+var command string
 var command_args []string
 var verbose bool    = false
 
-var repo string     = ""
-var releases string = ""
+var repo string
+var releases string
 
 var args []string
 
